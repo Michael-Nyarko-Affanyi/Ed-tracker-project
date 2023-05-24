@@ -1,11 +1,30 @@
 import React from 'react'
 import  Input  from "../components/Input ";
 import icon from "../assets/Logo.png"
-import { Link } from 'react-router-dom';
-import { useFormik } from 'formik';
+import { Link,useNavigate } from 'react-router-dom';
+import { ErrorMessage, useFormik } from 'formik';
 import { loginSchema } from '../Validations/UserLogin';
+import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
 
 const Login = () => {
+  const auth = getAuth();
+
+  const navigate = useNavigate()
+
+
+  const onSubmit = () =>{
+    if (values) {
+      signInWithEmailAndPassword(auth, values.email, values.password)
+      .then(() => {
+        navigate('/sidebar')
+      })
+      .catch((error) => {
+       
+         alert(error.message)
+      });
+    }
+
+  }
 
     const {
         values,
@@ -21,7 +40,8 @@ const Login = () => {
           password: "",
         },
         validationSchema: loginSchema,
-        // onSubmit,
+        onSubmit,
+        
       });
 
 
@@ -43,10 +63,11 @@ const Login = () => {
                 name="email"
                 value={values.email}
                 handleChange={handleChange}
-                placeholder="Enter your email "
+                placeholder="Enter your Email "
                 onBlur={handleBlur}
                 error={errors.email}
                 touch={touched.email}
+                onchange ={handleChange}
               />
               <Input
                 label="Password*"
@@ -54,22 +75,24 @@ const Login = () => {
                 name="password"
                 value={values.password}
                 handleChange={handleChange}
-                placeholder="Enter your password "
+                placeholder="Enter your Password "
                 onBlur={handleBlur}
                 error={errors.password}
-                touch={touched.password}
+                touch={touched.password} 
+                onchange ={handleChange}
               />
 
               <Link to="" className="text-[#0000ffb3] ml-[210px] ">
                 Forgot password?
               </Link>
               <div className="mt-[46px]  h-[42px] text-center  ">
-                <button
+             <button
                   type="submit"
                   className=" h-[42px] w-[268px] rounded-lg bg-blue-600 font-normal text-white text-[17px] mb-[16px]  "
                 >
                  Login
                 </button>
+             
                 <p>
                   Don’t have an account?
                   <Link to="/signUp" className="text-[#0000ffb3]">
