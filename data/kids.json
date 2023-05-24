@@ -1,0 +1,190 @@
+{
+    "students": [
+      {
+        "id": 1,
+        "name": "Sarah Williams",
+        "courses": [
+          {
+            "id": "ED/23/001",
+            "name": "Mathematics",
+            "teacher": "Ms. Johnson",
+            "test_marks": 38,
+            "exam_marks": 44
+          },
+          {
+            "id": "ED/23/002",
+            "name": "Science",
+            "teacher": "Mr. Lee",
+            "test_marks": 34,
+            "exam_marks": 52
+          },
+          {
+            "id": "ED/23/003",
+            "name": "English",
+            "teacher": "Ms. Brown",
+            "test_marks": 32,
+            "exam_marks": 56
+          },
+          {
+            "id": "ED/23/004",
+            "name": "History",
+            "teacher": "Mr. Clark",
+            "test_marks": 22,
+            "exam_marks": 25
+          },
+          {
+            "id": "ED/23/005",
+            "name": "Geography",
+            "teacher": "Ms. Taylor",
+            "test_marks": 32,
+            "exam_marks": 48
+          },
+          {
+            "id": "ED/23/006",
+            "name": "Computer Science",
+            "teacher": "Mr. White",
+            "test_marks": 33,
+            "exam_marks": 27
+          },
+          {
+            "id": "ED/23/007",
+            "name": "French",
+            "teacher": "Ms. Martin",
+            "test_marks": 37,
+            "exam_marks": 50
+          },
+          {
+            "id": "ED/23/008",
+            "name": "Art",
+            "teacher": "Ms. Davis",
+            "test_marks": 17,
+            "exam_marks": 24
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "John Smith",
+        "courses": [
+          {
+            "id": "ED/23/001",
+            "name": "Mathematics",
+            "teacher": "Ms. Johnson",
+            "test_marks": 32,
+            "exam_marks": 48
+          },
+          {
+            "id": "ED/23/002",
+            "name": "Science",
+            "teacher": "Mr. Lee",
+            "test_marks": 12,
+            "exam_marks": 29
+          },
+          {
+            "id": "ED/23/003",
+            "name": "Physical Education",
+            "teacher": "Mr. Brown",
+            "test_marks": 36,
+            "exam_marks": 48
+          },
+          {
+            "id": "ED/23/004",
+            "name": "History",
+            "teacher": "Ms. Davis",
+            "test_marks": 30,
+            "exam_marks": 54
+          },
+          {
+            "id": "ED/23/005",
+            "name": "Geography",
+            "teacher": "Mr. Taylor",
+            "test_marks": 32,
+            "exam_marks": 48
+          },
+          {
+            "id": "ED/23/006",
+            "name": "Computer Science",
+            "teacher": "Mr. White",
+            "test_marks": 28,
+            "exam_marks": 44
+          },
+          {
+            "id": "ED/23/007",
+            "name": "Spanish",
+            "teacher": "Ms. Rodriguez",
+            "test_marks": 31,
+            "exam_marks": 57
+          },
+          {
+            "id": "ED/23/008",
+            "name": "Drama",
+            "teacher": "Ms. Black",
+            "test_marks": 39,
+            "exam_marks": 55
+        }
+      ]
+    },
+    {
+        "id": 3,
+      "name": "Emily Johnson",
+      "courses": [
+        {
+          "id": "ED/23/001",
+          "name": "Mathematics",
+          "teacher": "Ms. Johnson",
+          "test_marks": 18,
+          "exam_marks": 30
+        },
+        {
+          "id": "ED/23/002",
+          "name": "Science",
+          "teacher": "Mr. Lee",
+          "test_marks": 12,
+            "exam_marks": 31
+        },
+        {
+          "id": "ED/23/003",
+          "name": "English",
+          "teacher": "Ms. Brown",
+          "test_marks": 32,
+          "exam_marks": 47
+        },
+        {
+          "id": "ED/23/004",
+          "name": "History",
+          "teacher": "Mr. Clark",
+          "test_marks": 22,
+          "exam_marks": 58
+        },
+        {
+          "id": "ED/23/005",
+          "name": "Geography",
+          "teacher": "Ms. Taylor",
+          "test_marks": 33,
+          "exam_marks": 33
+        },
+        {
+          "id": "ED/23/006",
+          "name": "Computer Science",
+          "teacher": "Mr. White",
+          "test_marks": 36,
+          "exam_marks": 51
+        },
+        {
+          "id": "ED/23/007",
+          "name": "French",
+          "teacher": "Ms. Martin",
+          "test_marks": 38,
+          "exam_marks": 48
+        },
+        {
+          "id": "ED/23/008",
+          "name": "Art",
+          "teacher": "Ms. Davis",
+          "test_marks": 28,
+          "exam_marks": 45
+        }
+      ]
+    }
+]
+}
