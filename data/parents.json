@@ -1,0 +1,227 @@
+{
+  "parents": [
+    {
+      "id": 1,
+      "name": "John Smith",
+      "image": "https://example.com/john_smith.jpg",
+      "children": [
+        {
+          "name": "Emily Smith",
+          "age": 10,
+          "gender": "female",
+          "grade": 4,
+          "teacher": "Ms. Johnson"
+        },
+        {
+          "name": "Jack Smith",
+          "age": 8,
+          "gender": "male",
+          "grade": 2,
+          "teacher": "Ms. Brown"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Mary Johnson",
+      "image": "https://example.com/mary_johnson.jpg",
+      "children": [
+        {
+          "name": "Jacob Johnson",
+          "age": 11,
+          "gender": "male",
+          "grade": 5,
+          "teacher": "Mr. Lee"
+        },
+        {
+          "name": "Olivia Johnson",
+          "age": 7,
+          "gender": "female",
+          "grade": 1,
+          "teacher": "Ms. Taylor"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "David Brown",
+      "image": "https://example.com/david_brown.jpg",
+      "children": [
+        {
+          "name": "Sophia Brown",
+          "age": 9,
+          "gender": "female",
+          "grade": 3,
+          "teacher": "Ms. Rodriguez"
+        },
+        {
+          "name": "Noah Brown",
+          "age": 6,
+          "gender": "male",
+          "grade": 1,
+          "teacher": "Ms. Cooper"
+        },
+        {
+          "name": "Liam Brown",
+          "age": 4,
+          "gender": "male",
+          "grade": "pre-k",
+          "teacher": "Ms. Parker"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Sarah Lee",
+      "image": "https://example.com/sarah_lee.jpg",
+      "children": [
+        {
+          "name": "Ethan Lee",
+          "age": 9,
+          "gender": "male",
+          "grade": 4,
+          "teacher": "Mr. Anderson"
+        },
+        {
+          "name": "Ava Lee",
+          "age": 7,
+          "gender": "female",
+          "grade": 2,
+          "teacher": "Ms. Martinez"
+        },
+        {
+          "name": "Mia Lee",
+          "age": 5,
+          "gender": "female",
+          "grade": "kindergarten",
+          "teacher": "Ms. Lewis"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Michael Davis",
+      "image": "https://example.com/michael_davis.jpg",
+      "children": [
+        {
+          "name": "Benjamin Davis",
+          "age": 8,
+          "gender": "male",
+          "grade": 3,
+          "teacher": "Ms. Hernandez"
+        },
+        {
+          "name": "Emma Davis",
+          "age": 6,
+          "gender": "female",
+          "grade": 1,
+          "teacher": "Ms. Ramirez"
+        },
+        {
+          "name": "Evelyn Davis",
+          "age": 4,
+          "gender": "female",
+          "grade": "pre-k",
+          "teacher": "Ms. Nelson"
+        }
+      ]
+    },{
+      "id": 6,
+      "name": "Sarah Johnson",
+      "image": "https://example.com/sarah-johnson.jpg",
+      "children": [
+        {
+          "name": "Sophia Johnson",
+          "age": 10,
+          "gender": "female",
+          "grade": 5,
+          "teacher": "Ms. Davis"
+        },
+        {
+          "name": "Oliver Johnson",
+          "gender": "male",
+          "grade": "3rd grade",
+          "teacher": "Ms. Anderson"
+        },
+        {
+          "name": "Ethan Johnson",
+          "gender": "male",
+          "grade": "1st grade",
+          "teacher": "Ms. Wilson"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Maria Rodriguez",
+      "image": "https://example.com/maria-rodriguez.jpg",
+      "children": [
+        {
+          "name": "Isabella Rodriguez",
+          "age": 12,
+          "gender": "female",
+          "grade": 6,
+          "teacher": "Mr. Lee"
+        },
+        {
+          "name": "Sophie Rodriguez",
+          "gender": "female",
+          "grade": "4th grade",
+          "teacher": "Mrs. Brown"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "David Lee",
+      "image": "https://example.com/david-lee.jpg",
+      "children": [
+        {
+          "name": "Ava Lee",
+          "age": 4,
+          "gender": "female",
+          "grade": 2,
+          "teacher": "Mrs. Johnson"
+        },
+        {
+          "name": "Liam Lee",
+          "gender": "male",
+          "grade": "kindergarten",
+          "teacher": "Ms. Smith"
+        },
+        {
+          "name": "Ella Lee",
+          "gender": "female",
+          "grade": "pre-k",
+          "teacher": "Ms. Nelson"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Jessica Garcia",
+      "image": "https://example.com/jessica-garcia.jpg",
+      "children": [
+        {
+          "name": "Daniel Garcia",
+          "age": 5,
+          "gender": "male",
+          "grade": 3,
+          "teacher": "Ms. Anderson"
+        },
+        {
+          "name": "Mia Garcia",
+          "gender": "female",
+          "grade": "1st grade",
+          "teacher": "Ms. Wilson"
+        },
+        {
+          "name": "Sophie Garcia",
+          "gender": "female",
+          "grade": "pre-k",
+          "teacher": "Ms. Nelson"
+        }
+      ]
+    }
+  ]
+}
