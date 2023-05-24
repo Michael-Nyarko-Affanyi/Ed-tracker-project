@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { MdSpaceDashboard } from "react-icons/md";
 import { GiProgression } from "react-icons/gi";
 import { HiUsers } from "react-icons/hi";
 import { FiSettings } from "react-icons/fi";
 import logo from '../assets/Logo.png'
+import { getAuth, onAuthStateChanged } from "firebase/auth";
 import { Link } from "react-router-dom";
 import {open} from '../feature/settingsSlice'
 import { useDispatch } from "react-redux";
@@ -14,6 +15,27 @@ const style = {
 }
 
 const Sidebar = () => {
+
+
+  const auth = getAuth();
+  //  const navigate = useNavigate();
+
+   useEffect(() => {
+     const unsubscribe = onAuthStateChanged(auth, (user) => {
+       if (user) {
+
+        console.log(user.displayName);
+         /* const userEmail  = user.email
+         localStorage.setItem("userEmail", userEmail) */
+         setIsLoading(false);
+       } else {
+        //  navigate("/login");
+       }
+     });
+
+     return () => unsubscribe()
+
+    }, []);
   const dispatch = useDispatch()
   return (
     <div className=" w-1/5 bg-gray-50 h-full shadow-xl flex flex-col justify-center gap-14 pl-10 relative">
